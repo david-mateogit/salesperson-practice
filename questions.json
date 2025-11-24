@@ -1,0 +1,1317 @@
+[
+  {
+    "section": "national",
+    "text": "Which of the following best describes the relationship between a broker and a seller under a listing agreement?",
+    "options": [
+      "Universal Agency",
+      "General Agency",
+      "Special Agency",
+      "Implied Agency"
+    ],
+    "correctIndex": 2,
+    "explanation": "A real estate broker is typically a special agent to the seller because they are hired to perform a specific act (sell the property) without the power to bind the principal to a contract."
+  },
+  {
+    "section": "national",
+    "text": "The practice of inducing panic selling in a neighborhood for financial gain is known as:",
+    "options": ["Steering", "Redlining", "Blockbusting", "Commingling"],
+    "correctIndex": 2,
+    "explanation": "Blockbusting is the illegal practice of inducing homeowners to sell their properties by suggesting that the entry of a protected class into the neighborhood will lower property values."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following is NOT one of the 'Bundle of Legal Rights' associated with real property ownership?",
+    "options": [
+      "Right of Exclusion",
+      "Right of Enjoyment",
+      "Right of Control",
+      "Right of Domain"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Bundle of Rights includes Possession, Control, Enjoyment, Exclusion, and Disposition. 'Right of Domain' is not a standard right; Eminent Domain is a government power, not an owner's right."
+  },
+  {
+    "section": "national",
+    "text": "A clause in a mortgage that allows the lender to demand full payment of the loan immediately if the borrower defaults is called the:",
+    "options": [
+      "Defeasance clause",
+      "Acceleration clause",
+      "Alienation clause",
+      "Subordination clause"
+    ],
+    "correctIndex": 1,
+    "explanation": "The acceleration clause allows the lender to 'accelerate' the maturity of the debt, declaring the entire balance due immediately upon default."
+  },
+  {
+    "section": "national",
+    "text": "Which type of ownership includes the right of survivorship?",
+    "options": [
+      "Tenancy in Common",
+      "Tenancy by the Entirety",
+      "Estate for Years",
+      "Leasehold Estate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tenancy by the Entirety (and Joint Tenancy) includes the right of survivorship, meaning if one owner dies, their interest passes automatically to the surviving owner(s)."
+  },
+  {
+    "section": "national",
+    "text": "The process by which the government exercises its right of eminent domain is known as:",
+    "options": ["Condemnation", "Escheat", "Zoning", "Assessment"],
+    "correctIndex": 0,
+    "explanation": "Eminent domain is the right of the government to take private property for public use; Condemnation is the legal process used to exercise that right."
+  },
+  {
+    "section": "national",
+    "text": "Under the 1988 Amendment to the Fair Housing Act, which of the following is a protected class?",
+    "options": ["Age", "Marital Status", "Familial Status", "Income Level"],
+    "correctIndex": 2,
+    "explanation": "The 1988 Amendment added Familial Status (families with children) and Disability to the protected classes. Age and Marital Status are not protected under Federal law (though often protected by state laws)."
+  },
+  {
+    "section": "national",
+    "text": "A property manager has a fiduciary duty to the owner to maximize income while maintaining the property's value. This relationship is best described as:",
+    "options": [
+      "Special Agent",
+      "General Agent",
+      "Universal Agent",
+      "Dual Agent"
+    ],
+    "correctIndex": 1,
+    "explanation": "A property manager is usually a General Agent because they are authorized to perform a range of ongoing tasks associated with the property."
+  },
+  {
+    "section": "national",
+    "text": "Radon is best described as:",
+    "options": [
+      "A liquid chemical used in insulation",
+      "A radioactive gas produced by the decay of uranium",
+      "A friable material found in older pipes",
+      "A toxic mold found in damp areas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radon is a naturally occurring, colorless, odorless, radioactive gas produced by the decay of radioactive substances in the soil."
+  },
+  {
+    "section": "national",
+    "text": "The approach to value used primarily for unique properties such as churches, schools, or libraries is the:",
+    "options": [
+      "Sales Comparison Approach",
+      "Income Approach",
+      "Cost Approach",
+      "Gross Rent Multiplier"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Cost Approach is used when comparable sales are rare and the property does not generate income. It calculates the cost to replace the improvements minus depreciation, plus land value."
+  },
+  {
+    "section": "national",
+    "text": "If a contract has been signed by both parties but the transaction has not yet closed, the contract is considered:",
+    "options": ["Executed", "Executory", "Voidable", "Unilateral"],
+    "correctIndex": 1,
+    "explanation": "An executory contract is one in which one or both parties still have duties to perform (e.g., the period between purchase offer acceptance and closing)."
+  },
+  {
+    "section": "national",
+    "text": "Which deed provides the grantee with the greatest protection?",
+    "options": [
+      "Quitclaim Deed",
+      "Special Warranty Deed",
+      "General Warranty Deed",
+      "Bargain and Sale Deed"
+    ],
+    "correctIndex": 2,
+    "explanation": "A General Warranty Deed provides the greatest protection to the buyer because the grantor is legally bound by certain covenants and warranties back to the origin of the property title."
+  },
+  {
+    "section": "national",
+    "text": "The Truth in Lending Act (Regulation Z) requires the disclosure of:",
+    "options": [
+      "Closing costs",
+      "The Annual Percentage Rate (APR)",
+      "Property defects",
+      "Broker commissions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regulation Z requires lenders to disclose the true cost of obtaining credit, which includes the Annual Percentage Rate (APR)."
+  },
+  {
+    "section": "national",
+    "text": "An easement that runs with the land and benefits the dominant tenement is called:",
+    "options": [
+      "Easement in Gross",
+      "Easement by Necessity",
+      "Easement Appurtenant",
+      "Prescriptive Easement"
+    ],
+    "correctIndex": 2,
+    "explanation": "An Easement Appurtenant belongs to the land and transfers with the title; it benefits the dominant tenement and burdens the servient tenement."
+  },
+  {
+    "section": "national",
+    "text": "In a real estate transaction, the term 'consideration' refers to:",
+    "options": [
+      "The thoughtfulness of the agent",
+      "Something of value given in exchange for a promise",
+      "The closing date",
+      "The contingencies in the contract"
+    ],
+    "correctIndex": 1,
+    "explanation": "Consideration is a necessary element of a valid contract. It is something of legal value (money, goods, or promises) offered by one party to another."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, real estate salespersons licenses must be renewed:",
+    "options": [
+      "Annually by May 31st",
+      "Annually by March 31st",
+      "Every two years by May 31st",
+      "Every two years by March 31st"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Connecticut, real estate salesperson licenses expire annually on May 31st. Broker licenses expire annually on March 31st."
+  },
+  {
+    "section": "state",
+    "text": "Regarding security deposits for residential leases in Connecticut, which of the following is TRUE?",
+    "options": [
+      "Landlords are not required to pay interest on security deposits.",
+      "Landlords must pay interest on security deposits at a rate determined annually by the Banking Commissioner.",
+      "Landlords may keep the interest as an administrative fee.",
+      "Interest is only required for leases longer than two years."
+    ],
+    "correctIndex": 1,
+    "explanation": "CT law requires landlords to hold security deposits in an escrow account and pay interest to the tenant. The rate is set annually by the Banking Commissioner."
+  },
+  {
+    "section": "state",
+    "text": "Who is responsible for administering the real estate licensing laws in Connecticut?",
+    "options": [
+      "The Connecticut Association of Realtors",
+      "The Department of Consumer Protection (DCP) and the Real Estate Commission",
+      "The Secretary of State",
+      "The Department of Housing"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Department of Consumer Protection (DCP), specifically with the advice and assistance of the Connecticut Real Estate Commission, administers licensing laws."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, a broker must deposit earnest money into a special trust account within how many days?",
+    "options": [
+      "24 hours of receipt",
+      "3 banking days from the date the contract is signed",
+      "7 business days",
+      "Immediately upon receipt of the check"
+    ],
+    "correctIndex": 1,
+    "explanation": "CT regulations state that funds must be deposited into the escrow/trust account within three banking days from the date the agreement is obtained (contract signed)."
+  },
+  {
+    "section": "state",
+    "text": "Which of the following is a protected class under Connecticut State Fair Housing law, but NOT under Federal law?",
+    "options": ["Race", "Religion", "Sexual Orientation", "National Origin"],
+    "correctIndex": 2,
+    "explanation": "Connecticut law expands protected classes beyond the federal list to include Sexual Orientation, Gender Identity or Expression, and Source of Income, among others."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following best describes a 'cooperative' (co-op) ownership?",
+    "options": [
+      "Fee simple ownership of a unit and a portion of common areas",
+      "Ownership of stock in a corporation and a proprietary lease",
+      "A leasehold estate with an option to buy",
+      "Tenancy in common with other residents"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a cooperative, the building is owned by a corporation. Residents buy stock in the corporation and receive a proprietary lease to occupy their specific unit."
+  },
+  {
+    "section": "national",
+    "text": "The illegal practice of lenders refusing to make loans in specific geographic areas regardless of the economic qualifications of the applicant is known as:",
+    "options": ["Steering", "Blockbusting", "Redlining", "Puffing"],
+    "correctIndex": 2,
+    "explanation": "Redlining occurs when lenders draw lines on a map (often around minority neighborhoods) and refuse to lend there. This violates the Fair Housing Act."
+  },
+  {
+    "section": "national",
+    "text": "If a comparable property has a feature that the subject property lacks (e.g., a swimming pool), the appraiser should:",
+    "options": [
+      "Add the value of the feature to the subject property",
+      "Subtract the value of the feature from the comparable property",
+      "Subtract the value of the feature from the subject property",
+      "Add the value of the feature to the comparable property"
+    ],
+    "correctIndex": 1,
+    "explanation": "In the Sales Comparison Approach, adjustments are made to the comparable. If the Comp is better (has a pool), you subtract value from the Comp to make it equal to the Subject."
+  },
+  {
+    "section": "national",
+    "text": "Lead-based paint disclosures are mandatory for all residential properties built prior to:",
+    "options": ["1988", "1990", "1978", "1965"],
+    "correctIndex": 2,
+    "explanation": "The Federal Lead-Based Paint Hazard Reduction Act requires disclosure for homes built before 1978."
+  },
+  {
+    "section": "national",
+    "text": "Which lien generally takes priority over all other liens?",
+    "options": [
+      "First Mortgage Lien",
+      "Mechanic's Lien",
+      "Real Estate Tax Lien",
+      "Judgment Lien"
+    ],
+    "correctIndex": 2,
+    "explanation": "Real estate property taxes and special assessments generally take priority over all other liens, regardless of when they were recorded."
+  },
+  {
+    "section": "national",
+    "text": "A contract that appears valid but lacks an essential element, making it unenforceable by law (such as a contract with a minor), is considered:",
+    "options": ["Void", "Voidable", "Valid", "Unilateral"],
+    "correctIndex": 1,
+    "explanation": "A voidable contract is one that appears valid but may be rescinded or disaffirmed by one of the parties (e.g., a minor can void a contract they signed)."
+  },
+  {
+    "section": "national",
+    "text": "The type of depreciation that is caused by factors outside the property lines (e.g., a noisy airport built nearby) is called:",
+    "options": [
+      "Physical Deterioration",
+      "Functional Obsolescence",
+      "External (Economic) Obsolescence",
+      "Deferred Maintenance"
+    ],
+    "correctIndex": 2,
+    "explanation": "External Obsolescence (or Economic Obsolescence) is a loss in value caused by outside factors and is almost always incurable."
+  },
+  {
+    "section": "national",
+    "text": "Under the Sherman Antitrust Act, which of the following activities is prohibited?",
+    "options": [
+      "Brokers in a town agreeing to set a standard commission rate",
+      "A broker refusing to list a property",
+      "A salesperson negotiating a commission with a client",
+      "An agency holding an open house"
+    ],
+    "correctIndex": 0,
+    "explanation": "Price-fixing (brokers conspiring to set fixed commission rates) is a violation of Sherman Antitrust laws. Commissions must always be negotiable."
+  },
+  {
+    "section": "national",
+    "text": "A tenant pays a fixed rent, while the landlord pays all property expenses (taxes, insurance, repairs). This is a:",
+    "options": ["Net Lease", "Gross Lease", "Percentage Lease", "Ground Lease"],
+    "correctIndex": 1,
+    "explanation": "In a Gross Lease (common in residential), the tenant pays a flat rental amount, and the landlord covers operating expenses."
+  },
+  {
+    "section": "national",
+    "text": "Which legal description method uses a 'Point of Beginning' (POB)?",
+    "options": [
+      "Lot and Block",
+      "Government Survey System",
+      "Metes and Bounds",
+      "Rectangular Survey"
+    ],
+    "correctIndex": 2,
+    "explanation": "Metes and Bounds descriptions start at a Point of Beginning, proceed around the property boundaries using distances and directions, and return to the POB."
+  },
+  {
+    "section": "national",
+    "text": "The primary purpose of the secondary mortgage market is to:",
+    "options": [
+      "Originate loans for consumers",
+      "Provide liquidity to the primary market by buying mortgages",
+      "Insure FHA loans",
+      "Regulate interest rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "The secondary market (Fannie Mae, Freddie Mac) buys loans from primary lenders, replenishing the lenders' funds so they can originate more loans."
+  },
+  {
+    "section": "national",
+    "text": "An agent who represents both the buyer and the seller in the same transaction is known as a:",
+    "options": ["Designated Agent", "Dual Agent", "Single Agent", "Subagent"],
+    "correctIndex": 1,
+    "explanation": "Dual Agency occurs when a broker represents both principals in the same transaction. It requires informed, written consent from both parties."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following terms refers to the economic characteristic of land that states no two parcels are exactly alike?",
+    "options": [
+      "Scarcity",
+      "Nonhomogeneity (Uniqueness)",
+      "Immobility",
+      "Indestructibility"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nonhomogeneity (or Uniqueness) is a physical characteristic, but 'Situs' and 'Immobility' are often confused. However, the strict definition of 'no two alike' is Nonhomogeneity."
+  },
+  {
+    "section": "national",
+    "text": "A deed used to clear a cloud on the title is usually a:",
+    "options": [
+      "General Warranty Deed",
+      "Quitclaim Deed",
+      "Trustee's Deed",
+      "Sheriff's Deed"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Quitclaim deed transfers whatever interest the grantor has (if any) without warranties. It is commonly used to fix title errors (clouds)."
+  },
+  {
+    "section": "national",
+    "text": "The phrase 'Time is of the Essence' in a contract means:",
+    "options": [
+      "The contract must be signed within 24 hours",
+      "Contractual duties must be performed strictly by the specified dates",
+      "The agent must work quickly",
+      "The closing must happen within 30 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "This clause means that dates and times in the contract are firm and a failure to meet them may be considered a breach of contract."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, if a seller fails to provide the Residential Property Condition Disclosure Report to the buyer prior to the binder or contract, the buyer is entitled to:",
+    "options": [
+      "Cancel the contract without penalty",
+      "A $500 credit at closing",
+      "A $1,000 credit at closing",
+      "Sue for triple damages"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under CT law, if the disclosure is not provided, the seller must credit the buyer $500 at closing (unless it is an exempt transfer)."
+  },
+  {
+    "section": "state",
+    "text": "A Connecticut real estate salesperson receives a commission check from a client. What must they do?",
+    "options": [
+      "Deposit it into their personal account",
+      "Deposit it into their escrow account",
+      "Turn it over to their broker immediately",
+      "Cash it and give the broker their share"
+    ],
+    "correctIndex": 2,
+    "explanation": "Salespersons cannot accept compensation directly from clients. They must turn all funds over to their employing broker, who then pays the salesperson."
+  },
+  {
+    "section": "state",
+    "text": "The Connecticut Real Estate Guaranty Fund provides compensation to consumers who have suffered financial loss due to a licensee's fraud. The maximum compensation for a single transaction is:",
+    "options": ["$10,000", "$25,000", "$50,000", "$500,000"],
+    "correctIndex": 1,
+    "explanation": "The Real Estate Guaranty Fund limits compensation to $25,000 for any one transaction or claim."
+  },
+  {
+    "section": "state",
+    "text": "When advertising a property for sale in Connecticut, a salesperson must strictly include:",
+    "options": [
+      "Their own personal phone number only",
+      "The name of the broker or firm they are affiliated with",
+      "The expiration date of the listing",
+      "The exact address of the property"
+    ],
+    "correctIndex": 1,
+    "explanation": "CT regulations require that all advertising by a licensee must clearly identify the broker or firm with whom the licensee is affiliated."
+  },
+  {
+    "section": "state",
+    "text": "To obtain a real estate salesperson license in Connecticut, an applicant must complete how many hours of pre-licensing education?",
+    "options": ["30 hours", "40 hours", "60 hours", "90 hours"],
+    "correctIndex": 2,
+    "explanation": "As of current regulations, the requirement is 60 classroom hours of Principles and Practices of Real Estate."
+  },
+  {
+    "section": "national",
+    "text": "A homeowner owns a property in 'severalty'. This means the property is owned by:",
+    "options": [
+      "Several people with rights of survivorship",
+      "One person or entity sole and alone",
+      "A husband and wife",
+      "A corporation and a partnership"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ownership in 'severalty' (derived from 'severed') means the ownership is cut off from all others; it is ownership by one single person or entity."
+  },
+  {
+    "section": "national",
+    "text": "In the capitalization approach to appraisal, if the capitalization rate (cap rate) goes up, and the net operating income remains the same, the value of the property:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Fluctuates wildly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Value = Income / Rate. If the Rate (denominator) increases, the resulting Value decreases. Higher risk (higher cap rate) implies lower value for the same income."
+  },
+  {
+    "section": "national",
+    "text": "One discount point charged by a lender is equal to:",
+    "options": [
+      "1% of the sales price",
+      "1% of the loan amount",
+      "$1,000",
+      "1/8% of the interest rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Discount points are prepaid interest used to lower the mortgage rate. One point always equals 1% of the *loan amount*, not the purchase price."
+  },
+  {
+    "section": "national",
+    "text": "If a listing agreement gives the broker the right to collect a commission regardless of who sells the property (even the owner), it is an:",
+    "options": [
+      "Exclusive Agency Listing",
+      "Open Listing",
+      "Exclusive Right-to-Sell Listing",
+      "Net Listing"
+    ],
+    "correctIndex": 2,
+    "explanation": "An Exclusive Right-to-Sell listing guarantees the broker a commission if the property is sold during the listing term, regardless of whether the broker, the seller, or another agent finds the buyer."
+  },
+  {
+    "section": "national",
+    "text": "The legal remedy that forces a party to complete the terms of a contract (e.g., forcing a seller to sell after they try to back out) is called:",
+    "options": [
+      "Liquidated Damages",
+      "Specific Performance",
+      "Rescission",
+      "Novation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Specific Performance is a court order requiring a party to perform a specific act, such as completing the sale of a property, because money damages are considered insufficient."
+  },
+  {
+    "section": "national",
+    "text": "A store owner has operated a grocery store in a neighborhood for 20 years. The town rezones the area as 'residential only'. The store is allowed to remain as a:",
+    "options": [
+      "Variance",
+      "Special Exception",
+      "Nonconforming Use",
+      "Encumbrance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nonconforming use (grandfathering) allows an existing use to continue even after zoning laws change to prohibit it, provided the use is continuous."
+  },
+  {
+    "section": "national",
+    "text": "In a mortgage contract, the borrower is referred to as the:",
+    "options": ["Mortgagee", "Mortgagor", "Lessor", "Grantee"],
+    "correctIndex": 1,
+    "explanation": "The borrower gives the mortgage (pledge) to the lender. Therefore, the borrower is the MortgagOR, and the lender is the MortgageE."
+  },
+  {
+    "section": "national",
+    "text": "The method of sealing off disintegrating asbestos is known as:",
+    "options": ["Removal", "Encapsulation", "Capping", "Remediation"],
+    "correctIndex": 1,
+    "explanation": "Encapsulation involves sealing the asbestos so that fibers cannot become airborne. It is often safer than removal, which can release fibers."
+  },
+  {
+    "section": "national",
+    "text": "A history of all recorded instruments affecting the title to a parcel of land is called a(n):",
+    "options": [
+      "Chain of Title",
+      "Abstract of Title",
+      "Title Insurance Policy",
+      "Certificate of Title"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Chain of Title is the list of owners; the Abstract of Title is the condensed history/summary of all documents (liens, deeds, wills) found during the title search."
+  },
+  {
+    "section": "national",
+    "text": "If a landlord allows a property to become uninhabitable (e.g., no heat in winter), and the tenant is forced to move out, this is called:",
+    "options": [
+      "Actual Eviction",
+      "Constructive Eviction",
+      "Ejectment",
+      "Tenant at Sufferance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Constructive Eviction occurs when the landlord's failure to maintain the property renders it uninhabitable, allowing the tenant to leave and terminate the lease without penalty."
+  },
+  {
+    "section": "national",
+    "text": "The Americans with Disabilities Act (ADA) requires that:",
+    "options": [
+      "All residential homes must have wheelchair ramps",
+      "Commercial and public accommodations must be accessible",
+      "Landlords cannot charge for service animals",
+      "Employers must hire a specific quota of disabled workers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Title III of the ADA requires public accommodations (commercial facilities like hotels, offices, stores) to be accessible. It does not apply to standard private residential housing (though Fair Housing does)."
+  },
+  {
+    "section": "national",
+    "text": "Which fiduciary duty continues even after the agency relationship has terminated?",
+    "options": ["Obedience", "Disclosure", "Confidentiality", "Loyalty"],
+    "correctIndex": 2,
+    "explanation": "The duty of Confidentiality survives the termination of the agency. An agent cannot reveal the client's confidential information (like lowest acceptable price) even years later."
+  },
+  {
+    "section": "national",
+    "text": "A loan-to-value (LTV) ratio is calculated by:",
+    "options": [
+      "Dividing the loan amount by the sales price or appraised value (whichever is lower)",
+      "Dividing the down payment by the loan amount",
+      "Dividing the sales price by the loan amount",
+      "Adding the closing costs to the loan amount"
+    ],
+    "correctIndex": 0,
+    "explanation": "LTV is the percentage of the property's value that is mortgaged. It is calculated as Loan Amount ÷ Value (using the lower of the purchase price or appraised value)."
+  },
+  {
+    "section": "national",
+    "text": "Under the concept of riparian rights, an owner of land bordering a non-navigable stream owns:",
+    "options": [
+      "To the high water mark",
+      "To the center of the stream",
+      "Only the land up to the water's edge",
+      "The water itself"
+    ],
+    "correctIndex": 1,
+    "explanation": "For non-navigable streams, adjacent landowners own the land under the water to the center of the stream."
+  },
+  {
+    "section": "national",
+    "text": "Blockbusting is also known as:",
+    "options": ["Panic Peddling", "Steering", "Redlining", "Discounting"],
+    "correctIndex": 0,
+    "explanation": "Blockbusting is often referred to as 'Panic Peddling' or 'Panic Selling' because it utilizes fear to induce sales."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, real estate brokers are required to retain transaction records for a minimum of:",
+    "options": ["3 years", "5 years", "7 years", "10 years"],
+    "correctIndex": 2,
+    "explanation": "CT regulations require brokers to keep all real estate transaction records (contracts, offers, closing statements) for 7 years."
+  },
+  {
+    "section": "state",
+    "text": "Which of the following activities may an unlicensed personal assistant legally perform in Connecticut?",
+    "options": [
+      "Show a property to a prospective buyer",
+      "Answer questions about the price and terms of a listing",
+      "Place a 'For Sale' sign on a property",
+      "Negotiate a commission split"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unlicensed assistants can perform administrative tasks like placing signs, making keys, or typing contracts. They CANNOT show properties, answer questions about material aspects (price/terms), or negotiate."
+  },
+  {
+    "section": "state",
+    "text": "Connecticut Continuing Education (CE) requirements for license renewal are:",
+    "options": [
+      "12 hours every year",
+      "12 hours every two years",
+      "6 hours every year",
+      "15 hours every two years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Licensees must complete 12 hours of continuing education every two-year cycle (even though salespersons renew licenses annually, the CE cycle is biennial)."
+  },
+  {
+    "section": "state",
+    "text": "Who pays the Municipal Conveyance Tax in Connecticut?",
+    "options": ["The Buyer", "The Seller", "The Broker", "It is split 50/50"],
+    "correctIndex": 1,
+    "explanation": "In Connecticut, the Seller (Grantor) is responsible for paying both the State and Municipal Conveyance taxes upon the transfer of the property."
+  },
+  {
+    "section": "state",
+    "text": "Generally, the Connecticut statute of limitations for a person to bring a lawsuit regarding a breach of written contract is:",
+    "options": ["1 year", "3 years", "6 years", "15 years"],
+    "correctIndex": 2,
+    "explanation": "In CT, the statute of limitations for simple or implied contracts is 3 years, but for written contracts, it is generally 6 years."
+  },
+  {
+    "section": "national",
+    "text": "A homeowner owns a property in 'severalty'. This means the property is owned by:",
+    "options": [
+      "Several people with rights of survivorship",
+      "One person or entity sole and alone",
+      "A husband and wife",
+      "A corporation and a partnership"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ownership in 'severalty' (derived from 'severed') means the ownership is cut off from all others; it is ownership by one single person or entity."
+  },
+  {
+    "section": "national",
+    "text": "In the capitalization approach to appraisal, if the capitalization rate (cap rate) goes up, and the net operating income remains the same, the value of the property:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Fluctuates wildly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Value = Income / Rate. If the Rate (denominator) increases, the resulting Value decreases. Higher risk (higher cap rate) implies lower value for the same income."
+  },
+  {
+    "section": "national",
+    "text": "One discount point charged by a lender is equal to:",
+    "options": [
+      "1% of the sales price",
+      "1% of the loan amount",
+      "$1,000",
+      "1/8% of the interest rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Discount points are prepaid interest used to lower the mortgage rate. One point always equals 1% of the *loan amount*, not the purchase price."
+  },
+  {
+    "section": "national",
+    "text": "If a listing agreement gives the broker the right to collect a commission regardless of who sells the property (even the owner), it is an:",
+    "options": [
+      "Exclusive Agency Listing",
+      "Open Listing",
+      "Exclusive Right-to-Sell Listing",
+      "Net Listing"
+    ],
+    "correctIndex": 2,
+    "explanation": "An Exclusive Right-to-Sell listing guarantees the broker a commission if the property is sold during the listing term, regardless of whether the broker, the seller, or another agent finds the buyer."
+  },
+  {
+    "section": "national",
+    "text": "The legal remedy that forces a party to complete the terms of a contract (e.g., forcing a seller to sell after they try to back out) is called:",
+    "options": [
+      "Liquidated Damages",
+      "Specific Performance",
+      "Rescission",
+      "Novation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Specific Performance is a court order requiring a party to perform a specific act, such as completing the sale of a property, because money damages are considered insufficient."
+  },
+  {
+    "section": "national",
+    "text": "A store owner has operated a grocery store in a neighborhood for 20 years. The town rezones the area as 'residential only'. The store is allowed to remain as a:",
+    "options": [
+      "Variance",
+      "Special Exception",
+      "Nonconforming Use",
+      "Encumbrance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nonconforming use (grandfathering) allows an existing use to continue even after zoning laws change to prohibit it, provided the use is continuous."
+  },
+  {
+    "section": "national",
+    "text": "In a mortgage contract, the borrower is referred to as the:",
+    "options": ["Mortgagee", "Mortgagor", "Lessor", "Grantee"],
+    "correctIndex": 1,
+    "explanation": "The borrower gives the mortgage (pledge) to the lender. Therefore, the borrower is the MortgagOR, and the lender is the MortgageE."
+  },
+  {
+    "section": "national",
+    "text": "The method of sealing off disintegrating asbestos is known as:",
+    "options": ["Removal", "Encapsulation", "Capping", "Remediation"],
+    "correctIndex": 1,
+    "explanation": "Encapsulation involves sealing the asbestos so that fibers cannot become airborne. It is often safer than removal, which can release fibers."
+  },
+  {
+    "section": "national",
+    "text": "A history of all recorded instruments affecting the title to a parcel of land is called a(n):",
+    "options": [
+      "Chain of Title",
+      "Abstract of Title",
+      "Title Insurance Policy",
+      "Certificate of Title"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Chain of Title is the list of owners; the Abstract of Title is the condensed history/summary of all documents (liens, deeds, wills) found during the title search."
+  },
+  {
+    "section": "national",
+    "text": "If a landlord allows a property to become uninhabitable (e.g., no heat in winter), and the tenant is forced to move out, this is called:",
+    "options": [
+      "Actual Eviction",
+      "Constructive Eviction",
+      "Ejectment",
+      "Tenant at Sufferance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Constructive Eviction occurs when the landlord's failure to maintain the property renders it uninhabitable, allowing the tenant to leave and terminate the lease without penalty."
+  },
+  {
+    "section": "national",
+    "text": "The Americans with Disabilities Act (ADA) requires that:",
+    "options": [
+      "All residential homes must have wheelchair ramps",
+      "Commercial and public accommodations must be accessible",
+      "Landlords cannot charge for service animals",
+      "Employers must hire a specific quota of disabled workers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Title III of the ADA requires public accommodations (commercial facilities like hotels, offices, stores) to be accessible. It does not apply to standard private residential housing (though Fair Housing does)."
+  },
+  {
+    "section": "national",
+    "text": "Which fiduciary duty continues even after the agency relationship has terminated?",
+    "options": ["Obedience", "Disclosure", "Confidentiality", "Loyalty"],
+    "correctIndex": 2,
+    "explanation": "The duty of Confidentiality survives the termination of the agency. An agent cannot reveal the client's confidential information (like lowest acceptable price) even years later."
+  },
+  {
+    "section": "national",
+    "text": "A loan-to-value (LTV) ratio is calculated by:",
+    "options": [
+      "Dividing the loan amount by the sales price or appraised value (whichever is lower)",
+      "Dividing the down payment by the loan amount",
+      "Dividing the sales price by the loan amount",
+      "Adding the closing costs to the loan amount"
+    ],
+    "correctIndex": 0,
+    "explanation": "LTV is the percentage of the property's value that is mortgaged. It is calculated as Loan Amount ÷ Value (using the lower of the purchase price or appraised value)."
+  },
+  {
+    "section": "national",
+    "text": "Under the concept of riparian rights, an owner of land bordering a non-navigable stream owns:",
+    "options": [
+      "To the high water mark",
+      "To the center of the stream",
+      "Only the land up to the water's edge",
+      "The water itself"
+    ],
+    "correctIndex": 1,
+    "explanation": "For non-navigable streams, adjacent landowners own the land under the water to the center of the stream."
+  },
+  {
+    "section": "national",
+    "text": "Blockbusting is also known as:",
+    "options": ["Panic Peddling", "Steering", "Redlining", "Discounting"],
+    "correctIndex": 0,
+    "explanation": "Blockbusting is often referred to as 'Panic Peddling' or 'Panic Selling' because it utilizes fear to induce sales."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, real estate brokers are required to retain transaction records for a minimum of:",
+    "options": ["3 years", "5 years", "7 years", "10 years"],
+    "correctIndex": 2,
+    "explanation": "CT regulations require brokers to keep all real estate transaction records (contracts, offers, closing statements) for 7 years."
+  },
+  {
+    "section": "state",
+    "text": "Which of the following activities may an unlicensed personal assistant legally perform in Connecticut?",
+    "options": [
+      "Show a property to a prospective buyer",
+      "Answer questions about the price and terms of a listing",
+      "Place a 'For Sale' sign on a property",
+      "Negotiate a commission split"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unlicensed assistants can perform administrative tasks like placing signs, making keys, or typing contracts. They CANNOT show properties, answer questions about material aspects (price/terms), or negotiate."
+  },
+  {
+    "section": "state",
+    "text": "Connecticut Continuing Education (CE) requirements for license renewal are:",
+    "options": [
+      "12 hours every year",
+      "12 hours every two years",
+      "6 hours every year",
+      "15 hours every two years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Licensees must complete 12 hours of continuing education every two-year cycle (even though salespersons renew licenses annually, the CE cycle is biennial)."
+  },
+  {
+    "section": "state",
+    "text": "Who pays the Municipal Conveyance Tax in Connecticut?",
+    "options": ["The Buyer", "The Seller", "The Broker", "It is split 50/50"],
+    "correctIndex": 1,
+    "explanation": "In Connecticut, the Seller (Grantor) is responsible for paying both the State and Municipal Conveyance taxes upon the transfer of the property."
+  },
+  {
+    "section": "state",
+    "text": "Generally, the Connecticut statute of limitations for a person to bring a lawsuit regarding a breach of written contract is:",
+    "options": ["1 year", "3 years", "6 years", "15 years"],
+    "correctIndex": 2,
+    "explanation": "In CT, the statute of limitations for simple or implied contracts is 3 years, but for written contracts, it is generally 6 years."
+  },
+  {
+    "section": "national",
+    "text": "The Statute of Frauds requires that certain contracts, including those for the sale of real estate, must be:",
+    "options": [
+      "Notarized",
+      "Recorded in the public record",
+      "In writing to be enforceable",
+      "Drafted by an attorney"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Statute of Frauds is a legal concept requiring that certain contracts (like real estate sales or leases over one year) must be in writing to be legally enforceable."
+  },
+  {
+    "section": "national",
+    "text": "Under CERCLA (the 'Superfund' law), liability for environmental cleanup is considered 'joint and several'. This means:",
+    "options": [
+      "The government pays for the cleanup",
+      "Each owner is only responsible for the damage they personally caused",
+      "Any single responsible party can be made to pay the entire cost of the cleanup",
+      "Liability is limited to the value of the property"
+    ],
+    "correctIndex": 2,
+    "explanation": "Joint and several liability means that any one of the potentially responsible parties (current or past owners) can be held liable for the *entire* cost of the cleanup, regardless of their share of the blame."
+  },
+  {
+    "section": "national",
+    "text": "A 4-bedroom house with only one bathroom would likely suffer from a loss of value due to:",
+    "options": [
+      "Physical Deterioration",
+      "External Obsolescence",
+      "Functional Obsolescence",
+      "Economic Obsolescence"
+    ],
+    "correctIndex": 2,
+    "explanation": "Functional Obsolescence refers to a loss of value due to poor design or outdated features (like a 4-bedroom house with only one bath) that are within the property lines."
+  },
+  {
+    "section": "national",
+    "text": "Private Mortgage Insurance (PMI) is typically required for conventional loans when the Loan-to-Value (LTV) ratio is higher than:",
+    "options": ["60%", "75%", "80%", "90%"],
+    "correctIndex": 2,
+    "explanation": "Lenders usually require PMI on conventional loans if the borrower puts down less than 20% (i.e., the LTV is greater than 80%) to protect the lender against default."
+  },
+  {
+    "section": "national",
+    "text": "The 'Habendum Clause' in a deed is also known as the:",
+    "options": [
+      "Granting clause",
+      "To have and to hold clause",
+      "Warranty clause",
+      "Seisin clause"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Habendum Clause follows the granting clause and defines the extent of the ownership being conveyed. It usually begins with the words 'To have and to hold'."
+  },
+  {
+    "section": "national",
+    "text": "A lease where the tenant pays a base rent plus a percentage of their gross sales is commonly used for retail properties and is called a:",
+    "options": ["Net Lease", "Gross Lease", "Percentage Lease", "Ground Lease"],
+    "correctIndex": 2,
+    "explanation": "A Percentage Lease is common in retail (malls) where the landlord shares in the tenant's business success by collecting a percentage of gross sales over a certain threshold."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following events would AUTOMATICALLY terminate a real estate agency agreement?",
+    "options": [
+      "The broker hires a new assistant",
+      "The seller receives a low offer",
+      "Death or incapacity of the broker or the principal",
+      "The market value of the property drops"
+    ],
+    "correctIndex": 2,
+    "explanation": "Agency is a personal relationship. If either the Principal (Client) or the Agent (Broker) dies or becomes incapacitated, the agency agreement is automatically terminated by operation of law."
+  },
+  {
+    "section": "national",
+    "text": "A 1031 Exchange allows an investor to:",
+    "options": [
+      "Avoid paying property taxes forever",
+      "Defer paying capital gains tax on an investment property",
+      "Exchange a personal residence for a boat",
+      "Deduct the full cost of a home purchase immediately"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 1031 of the Internal Revenue Code allows an investor to defer (postpone) paying capital gains taxes if they exchange one investment property for another 'like-kind' property."
+  },
+  {
+    "section": "national",
+    "text": "A variance is used when:",
+    "options": [
+      "A developer wants to change the zoning of an entire district",
+      "A landowner wants to use a property for a purpose that is strictly prohibited",
+      "A landowner needs an exception to a zoning ordinance due to a hardship",
+      "A town wants to seize property for public use"
+    ],
+    "correctIndex": 2,
+    "explanation": "A variance is a permitted deviation from specific zoning requirements (e.g., setback lines) granted when strict enforcement would cause an undue hardship to the owner."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following creates a 'cloud on title'?",
+    "options": [
+      "A recorded mortgage satisfaction",
+      "A valid easement",
+      "A misspelled name on a deed or an unreleased lien",
+      "A general warranty deed"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cloud on title is any document, claim, unreleased lien, or encumbrance that may impair the title to real property or make the title doubtful (e.g., a misspelled name breaks the chain of title)."
+  },
+  {
+    "section": "national",
+    "text": "In a Life Estate 'Pur Autre Vie', the duration of the estate is based on:",
+    "options": [
+      "The life of the tenant",
+      "The life of a third party",
+      "A fixed period of years",
+      "The life of the grantor"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Pur Autre Vie' is French for 'for the life of another'. The life tenant holds the property only as long as a specific third party is alive."
+  },
+  {
+    "section": "national",
+    "text": "Steering is the illegal practice of:",
+    "options": [
+      "Refusing loans in certain neighborhoods",
+      "Directing buyers toward or away from neighborhoods based on protected class",
+      "Inducing panic selling",
+      "Setting fixed commission rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Steering involves an agent guiding prospective buyers to or away from specific areas based on race, religion, or other protected characteristics, limiting their choices."
+  },
+  {
+    "section": "national",
+    "text": "When a borrower pays off a mortgage loan in full, the lender is required to execute a:",
+    "options": [
+      "Deed of Trust",
+      "Satisfaction of Mortgage (Release)",
+      "Notice of Default",
+      "Subordination Agreement"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Satisfaction of Mortgage (or Release of Lien) is the document recorded by the lender to prove the loan has been paid in full and the lien is removed."
+  },
+  {
+    "section": "national",
+    "text": "In the cost approach to value, the appraiser estimates the value of the land:",
+    "options": [
+      "As if it were vacant and available for its highest and best use",
+      "Based on the cost to reconstruct the building",
+      "Based on the income it generates",
+      "By adding the depreciation"
+    ],
+    "correctIndex": 0,
+    "explanation": "In the Cost Approach, land is always valued separately, as if it were vacant and available to be put to its highest and best use, usually using the Sales Comparison method."
+  },
+  {
+    "section": "national",
+    "text": "An 'implied contract' is one where:",
+    "options": [
+      "The terms are explicitly stated in writing",
+      "The terms are explicitly stated orally",
+      "The agreement is demonstrated by the acts and conduct of the parties",
+      "There is no legal effect"
+    ],
+    "correctIndex": 2,
+    "explanation": "An implied contract is not written or spoken; it is formed by the actions or conduct of the parties (e.g., eating at a restaurant implies you will pay the bill)."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, a landlord must return a tenant's security deposit (minus any itemized damages) within:",
+    "options": [
+      "10 days of the tenant vacating",
+      "30 days of the tenant vacating",
+      "30 days of lease termination or 15 days of receiving the forwarding address, whichever is later",
+      "45 days of lease termination"
+    ],
+    "correctIndex": 2,
+    "explanation": "CT law specifies the return must occur within 30 days after the tenancy ends, or within 15 days after the landlord receives the tenant's forwarding address, whichever is later."
+  },
+  {
+    "section": "state",
+    "text": "Regarding 'Designated Agency' in Connecticut, which of the following is TRUE?",
+    "options": [
+      "A broker can appoint a designated agent for the buyer but not the seller",
+      "Designated agency is illegal in Connecticut",
+      "A broker cannot designate a seller's agent and a buyer's agent in the same transaction",
+      "A broker cannot designate an agent for one party only; if used, both parties must have designated agents"
+    ],
+    "correctIndex": 3,
+    "explanation": "CT law prohibits 'one-sided' designated agency. A broker cannot appoint a designated agent for the buyer without also appointing one for the seller in the same transaction."
+  },
+  {
+    "section": "state",
+    "text": "Under the Connecticut Interstate Land Sales laws, a person who wishes to sell out-of-state subdivided land to Connecticut residents must usually:",
+    "options": [
+      "Only list it on the MLS",
+      "Register the property with the CT Department of Consumer Protection (DCP)",
+      "Obtain a federal securities license",
+      "Pay a conveyance tax to the town where the buyer lives"
+    ],
+    "correctIndex": 1,
+    "explanation": "The CT Interstate Land Sales Act requires developers selling improved or unimproved land from other states to CT residents to register with the DCP, unless an exemption applies."
+  },
+  {
+    "section": "state",
+    "text": "Which of the following is an exemption to the requirement of providing the CT Residential Property Condition Disclosure Report?",
+    "options": [
+      "A sale between two unrelated parties",
+      "A transfer of newly constructed residential real property",
+      "A sale where the buyer waives the right to inspection",
+      "A 'For Sale By Owner' transaction"
+    ],
+    "correctIndex": 1,
+    "explanation": "New construction is exempt because it typically comes with an implied warranty under Chapter 827, making the condition report redundant."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, which source of income is explicitly protected under State Fair Housing laws but not Federal law?",
+    "options": [
+      "Employment wages",
+      "Housing Choice Vouchers (Section 8)",
+      "Inheritance",
+      "Capital Gains"
+    ],
+    "correctIndex": 1,
+    "explanation": "CT Fair Housing law prohibits discrimination based on 'Lawful Source of Income,' which explicitly includes housing assistance such as Section 8 vouchers."
+  },
+  {
+    "section": "national",
+    "text": "Under the Real Estate Settlement Procedures Act (RESPA), which of the following is strictly prohibited?",
+    "options": [
+      "Referring a client to a specific lender",
+      "Paying a referral fee or 'kickback' to a title company for business",
+      "Charging a fee for preparing the closing documents",
+      "Requiring a specific credit report provider"
+    ],
+    "correctIndex": 1,
+    "explanation": "Section 8 of RESPA prohibits anyone from giving or accepting a fee, kickback, or anything of value in exchange for referrals of settlement service business."
+  },
+  {
+    "section": "national",
+    "text": "A salesperson exaggerates the benefits of a property by calling it 'the most beautiful view in the world.' This is an example of:",
+    "options": ["Fraud", "Misrepresentation", "Puffing", "Steering"],
+    "correctIndex": 2,
+    "explanation": "Puffing is an exaggeration of a property's benefits (opinion) and is generally legal, whereas fraud is the intentional misrepresentation of facts."
+  },
+  {
+    "section": "national",
+    "text": "The process of merging two or more adjacent lots into one larger lot to increase the total value is known as:",
+    "options": ["Subdivision", "Assemblage", "Plottage", "Partition"],
+    "correctIndex": 1,
+    "explanation": "Assemblage is the act of combining the land. 'Plottage' is the resulting increase in value created by that assemblage."
+  },
+  {
+    "section": "national",
+    "text": "Personal property that has been attached to the land or a building in such a way that it becomes part of the real property is called a:",
+    "options": ["Chattel", "Fixture", "Trade Fixture", "Emblement"],
+    "correctIndex": 1,
+    "explanation": "A fixture is an item that was once personal property (like a chandelier or kitchen cabinet) but has been attached to the real estate and is now considered real property."
+  },
+  {
+    "section": "national",
+    "text": "Which of the following creates a voluntary lien on real estate?",
+    "options": ["Mortgage", "Tax Assessment", "Judgment", "Mechanic's Lien"],
+    "correctIndex": 0,
+    "explanation": "A mortgage is a voluntary lien because the owner chooses to place it on the property to secure a loan. Tax and judgment liens are involuntary."
+  },
+  {
+    "section": "national",
+    "text": "An option contract typically grants the optionee (buyer) the right to purchase the property:",
+    "options": [
+      "At any price they choose",
+      "Within a specified time frame at a fixed price",
+      "Only if the seller decides to sell",
+      "Without paying any consideration"
+    ],
+    "correctIndex": 1,
+    "explanation": "An option contract is a unilateral contract where the seller (optionor) must sell if the buyer (optionee) decides to buy within the set timeframe at the agreed price."
+  },
+  {
+    "section": "national",
+    "text": "Under the Fair Housing Act, if a tenant with a disability wants to modify a rental unit (e.g., install grab bars) to make it accessible, who usually pays for the modification?",
+    "options": [
+      "The Landlord",
+      "The Tenant",
+      "The Federal Government",
+      "The Local Housing Authority"
+    ],
+    "correctIndex": 1,
+    "explanation": "The tenant must be allowed to make reasonable modifications at their own expense. The landlord may require the tenant to restore the premises to its original condition upon moving out."
+  },
+  {
+    "section": "national",
+    "text": "In a real estate closing, the 'Chain of Title' is reviewed to ensure:",
+    "options": [
+      "The property has the correct zoning",
+      "There is an unbroken record of ownership from the present back to the original source",
+      "The taxes are paid",
+      "The house passes inspection"
+    ],
+    "correctIndex": 1,
+    "explanation": "The chain of title serves to prove ownership history. If there is a 'break' in the chain, it creates a cloud on the title."
+  },
+  {
+    "section": "national",
+    "text": "A strip of land separating two distinct land uses (e.g., a park separating a residential neighborhood from a shopping mall) is called a:",
+    "options": ["Setback", "Buffer Zone", "Variance", "Easement"],
+    "correctIndex": 1,
+    "explanation": "Buffer zones are used in city planning to visually and physically separate different types of zoning areas (e.g., commercial vs. residential)."
+  },
+  {
+    "section": "national",
+    "text": "When a deed is delivered and accepted, it transfers:",
+    "options": ["Possession", "Title", "The Mortgage", "The Keys"],
+    "correctIndex": 1,
+    "explanation": "Title to real estate is transferred when a valid deed is delivered by the grantor and accepted by the grantee."
+  },
+  {
+    "section": "national",
+    "text": "The clause in a mortgage that requires the lender to issue a satisfaction of mortgage (release) when the loan is paid in full is the:",
+    "options": [
+      "Defeasance Clause",
+      "Alienation Clause",
+      "Acceleration Clause",
+      "Subordination Clause"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Defeasance clause ensures that the title (or lien) is 'defeated' (voided) when the debt is fully repaid."
+  },
+  {
+    "section": "national",
+    "text": "Which listing agreement is least desirable for a broker because it allows the seller to list with multiple brokers and only pay the one who brings the buyer?",
+    "options": [
+      "Exclusive Right to Sell",
+      "Exclusive Agency",
+      "Open Listing",
+      "Net Listing"
+    ],
+    "correctIndex": 2,
+    "explanation": "In an Open Listing, the seller can hire multiple brokers. Only the broker who is the 'procuring cause' gets paid. If the seller finds the buyer, no one gets paid."
+  },
+  {
+    "section": "national",
+    "text": "The Gross Rent Multiplier (GRM) is used to estimate the value of:",
+    "options": [
+      "Commercial office buildings",
+      "Single-family or small residential income properties",
+      "Industrial factories",
+      "Schools and churches"
+    ],
+    "correctIndex": 1,
+    "explanation": "GRM is a simplified income approach used primarily for 1-4 unit residential rental properties. (Price / Monthly Rent = GRM)."
+  },
+  {
+    "section": "national",
+    "text": "If a husband and wife own property as 'Tenants by the Entirety', and the husband passes away, the wife becomes the sole owner through:",
+    "options": [
+      "Probate court",
+      "Right of Survivorship",
+      "A Quitclaim Deed",
+      "Escheat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tenancy by the Entirety creates an indivisible estate between spouses. Upon death, the survivor automatically owns the property via the Right of Survivorship."
+  },
+  {
+    "section": "national",
+    "text": "The right of the government to enact legislation to protect the public health, safety, and general welfare is known as:",
+    "options": ["Eminent Domain", "Police Power", "Taxation", "Escheat"],
+    "correctIndex": 1,
+    "explanation": "Police Power is the state's authority to create regulations (zoning, building codes, environmental laws) to protect the public."
+  },
+  {
+    "section": "state",
+    "text": "Which type of listing agreement is illegal in Connecticut?",
+    "options": [
+      "Open Listing",
+      "Exclusive Agency Listing",
+      "Net Listing",
+      "Exclusive Right to Sell Listing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Net Listings (where the agent keeps everything above a certain net price set by the seller) are illegal in Connecticut due to the conflict of interest."
+  },
+  {
+    "section": "state",
+    "text": "The Connecticut Real Estate Commission consists of how many members?",
+    "options": ["3 members", "5 members", "8 members", "12 members"],
+    "correctIndex": 2,
+    "explanation": "The Commission consists of 8 members appointed by the Governor: 5 must be real estate brokers/salespersons, and 3 must be members of the public."
+  },
+  {
+    "section": "state",
+    "text": "Connecticut is a 'Strict Foreclosure' state. This means that if a borrower defaults and the property value is less than the debt:",
+    "options": [
+      "The court orders the property sold at auction immediately",
+      "The court can assign the title directly to the lender without a sale",
+      "The borrower has a 1-year redemption period",
+      "The lender cannot pursue a deficiency judgment"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Strict Foreclosure (common in CT when there is no equity), the court gives the borrower a specific 'Law Day' to pay. If they fail, title transfers directly to the lender. (Foreclosure by Sale is also used if there is equity)."
+  },
+  {
+    "section": "state",
+    "text": "Regarding real estate syndicates and securities, a salesperson in Connecticut who wishes to sell shares in a real estate investment trust (REIT) usually needs:",
+    "options": [
+      "Only a real estate license",
+      "A securities license",
+      "Permission from the town clerk",
+      "A property management certification"
+    ],
+    "correctIndex": 1,
+    "explanation": "Selling shares or interests in an investment pool (syndicate/REIT) is considered selling a security, which typically requires a federal/state securities license in addition to a real estate license."
+  },
+  {
+    "section": "state",
+    "text": "In Connecticut, if a broker wishes to place a sign on a property, they must first:",
+    "options": [
+      "Obtain verbal permission from the owner",
+      "Obtain the written consent of the owner",
+      "File a permit with the town",
+      "Ensure the sign is green and white"
+    ],
+    "correctIndex": 1,
+    "explanation": "CT regulations strictly prohibit placing a sign on any property without the written consent of the owner (usually included in the listing agreement)."
+  },
+  {
+    "section": "state",
+    "text": "If a Connecticut licensee changes their home address or broker affiliation, they must notify the Department of Consumer Protection (DCP) within:",
+    "options": ["48 hours", "10 days", "30 days", "There is no time limit"],
+    "correctIndex": 2,
+    "explanation": "CT licensees are required to update their license information (transfer of broker or change of address) with the DCP within 30 days."
+  },
+  {
+    "section": "state",
+    "text": "Under Connecticut law, who is the primary owner of a listing agreement?",
+    "options": [
+      "The Salesperson who took the listing",
+      "The Broker of Record / Brokerage Firm",
+      "The Multiple Listing Service (MLS)",
+      "The Seller"
+    ],
+    "correctIndex": 1,
+    "explanation": "All listings and agency agreements belong to the Broker (the firm), not the individual salesperson. If the salesperson leaves the firm, the listing stays with the broker."
+  },
+  {
+    "section": "state",
+    "text": "When a buyer creates a 'binder' or 'offer to purchase' in Connecticut, and it is accepted by the seller:",
+    "options": [
+      "It is merely a symbol and not legally binding",
+      "It serves as a valid contract until the formal contract is signed",
+      "It automatically transfers the deed",
+      "It is void if not notarized"
+    ],
+    "correctIndex": 1,
+    "explanation": "While a more formal contract usually follows, a signed written offer/binder that includes the essential terms (price, property, parties) is considered a valid, enforceable contract in CT."
+  },
+  {
+    "section": "state",
+    "text": "Which of the following creates a 'prescriptive easement' in Connecticut?",
+    "options": [
+      "Using a neighbor's driveway with their permission for 20 years",
+      "Open, visible, continuous, and interrupted use for 15 years",
+      "Using a property for 5 years",
+      "A written agreement between neighbors"
+    ],
+    "correctIndex": 1,
+    "explanation": "In CT, the statutory period for adverse possession or easement by prescription is 15 years. The use must be open, visible, continuous, and *without* permission (adverse)."
+  },
+  {
+    "section": "state",
+    "text": "Generally, can a Connecticut real estate licensee prepare a complex legal contract for a client?",
+    "options": [
+      "Yes, if they are experienced",
+      "No, this constitutes the unauthorized practice of law",
+      "Yes, if they charge a separate fee",
+      "Only for commercial properties"
+    ],
+    "correctIndex": 1,
+    "explanation": "Licensees are limited to filling in the blanks on pre-printed, standard forms. Drafting complex clauses or legal documents is the unauthorized practice of law; clients should be referred to an attorney."
+  }
+]

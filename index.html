@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CT Real Estate Practice Exam</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* --- Global Style & Typography --- */
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #eef2f7; /* Light blue/gray background */
+        color: #333;
+        padding: 20px;
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 2.5rem;
+        border-radius: 16px; /* Smoother corners */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #0d47a1; /* Darker blue header */
+        margin-top: 0;
+        font-weight: 700;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 1rem;
+      }
+
+      /* --- Question/Option Styling --- */
+      .question-container {
+        padding: 1.5rem 0;
+        border-top: 1px solid #f0f0f0;
+      }
+      .question {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+      .option {
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        background: #ffffff;
+        border-radius: 10px;
+        border: 2px solid #cfd8dc; /* Subtle border */
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 0.95rem;
+      }
+      /* Hover state for unanswered options */
+      .option:hover:not(.answered) {
+        background: #e3f2fd;
+        border-color: #90caf9;
+      }
+      .answered {
+        cursor: default; /* Disable cursor after selection */
+      }
+
+      /* --- Feedback Colors --- */
+      .correct {
+        background: #e8f5e9 !important; /* Light green */
+        border-color: #4caf50 !important; /* Medium green */
+        font-weight: bold;
+      }
+      .incorrect {
+        background: #ffebee !important; /* Light red */
+        border-color: #f44336 !important; /* Medium red */
+      }
+      .explanation {
+        margin-top: 1rem;
+        padding: 1.25rem;
+        background: #f0f8ff; /* Very light blue for context */
+        border-left: 5px solid #2196f3; /* Blue left bar */
+        border-radius: 10px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        display: none;
+      }
+
+      /* --- Footer and Score --- */
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.5rem;
+        border-top: 1px solid #e0e0e0;
+        margin-top: 2rem;
+      }
+      button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 8px;
+        background: #2196f3; /* Primary blue */
+        color: white;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      button:hover {
+        background: #1976d2;
+      }
+      #score {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #0d47a1;
+        background: #f5f5f5;
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        border: 1px dashed #bdbdbd;
+      }
+
+      /* --- Responsive adjustments --- */
+      @media (max-width: 600px) {
+        .container {
+          padding: 1.5rem;
+          border-radius: 0;
+        }
+        .footer {
+          flex-direction: column;
+          align-items: stretch;
+        }
+        #score {
+          margin-top: 1rem;
+          text-align: center;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>📚 CT Real Estate Practice Exam</h2>
+      <h3><span>Made By:</span> David Mateo</h3>
+      <div id="quiz"></div>
+      <div class="footer">
+        <button id="resetBtn">🔄 Reset & Shuffle Quiz</button>
+        <div id="score"></div>
+      </div>
+    </div>
+
+    <script type="module">
+      const quizContainer = document.querySelector("#quiz");
+      const scoreDiv = document.querySelector("#score");
+      const resetBtn = document.querySelector("#resetBtn");
+
+      let masterQuestions = []; // Stores the full, un-shuffled list of questions
+      let currentQuestions = []; // Stores the shuffled list for the current quiz
+      let userAnswers = []; // track { questionIndex, chosenIndex } in the CURRENT shuffled array
+
+      // --- Fisher-Yates (Knuth) Shuffle Algorithm ---
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+      }
+
+      // --- Rendering Logic ---
+      function renderQuiz() {
+        quizContainer.innerHTML = "";
+        currentQuestions.forEach((q, qIdx) => {
+          const questionContainer = document.createElement("div");
+          questionContainer.className = "question-container";
+          // Use qIdx (index in currentQuestions) to identify the question
+          questionContainer.setAttribute("data-q-index", qIdx);
+
+          const qDiv = document.createElement("div");
+          qDiv.className = "question";
+          qDiv.textContent = `${qIdx + 1}. [${q.section.toUpperCase()}] ${
+            q.text
+          }`;
+          questionContainer.appendChild(qDiv);
+
+          const explanationBox = document.createElement("div");
+          explanationBox.className = "explanation";
+          explanationBox.textContent = `Explanation: ${q.explanation}`;
+
+          // Create and attach options
+          q.options.forEach((opt, optIdx) => {
+            const optDiv = document.createElement("div");
+            optDiv.className = "option";
+            optDiv.textContent = opt;
+            optDiv.addEventListener("click", () =>
+              handleAnswer(qIdx, optIdx, optDiv, explanationBox)
+            );
+            questionContainer.appendChild(optDiv);
+          });
+
+          questionContainer.appendChild(explanationBox);
+          quizContainer.appendChild(questionContainer);
+        });
+      }
+
+      // --- Answer Handling ---
+      function handleAnswer(qIdx, optIdx, optElement, explanationBox) {
+        const questionContainer = optElement.closest(".question-container");
+        const options = questionContainer.querySelectorAll(".option");
+
+        // Prevent answering the same question twice
+        if (questionContainer.classList.contains("answered")) return;
+
+        // Mark question as answered and disable clicks
+        questionContainer.classList.add("answered");
+        options.forEach((opt) => opt.classList.add("answered"));
+
+        const q = currentQuestions[qIdx];
+        userAnswers.push({ questionIndex: qIdx, chosenIndex: optIdx });
+
+        // Apply visual feedback
+        if (optIdx === q.correctIndex) {
+          optElement.classList.add("correct");
+        } else {
+          optElement.classList.add("incorrect");
+          // Highlight the correct one
+          options[q.correctIndex].classList.add("correct");
+        }
+        explanationBox.style.display = "block";
+
+        updateScore();
+      }
+
+      // --- Score Calculation ---
+      function updateScore() {
+        const sectionTotals = { national: 0, state: 0 };
+        const sectionCorrect = { national: 0, state: 0 };
+
+        userAnswers.forEach(({ questionIndex, chosenIndex }) => {
+          // Use questionIndex to reference the currentQuestions array
+          const q = currentQuestions[questionIndex];
+
+          // Fallback check in case q is undefined (shouldn't happen with proper indexing)
+          if (!q) return;
+
+          sectionTotals[q.section]++;
+          if (chosenIndex === q.correctIndex) {
+            sectionCorrect[q.section]++;
+          }
+        });
+
+        // Compute percentages
+        const nationalPct = sectionTotals.national
+          ? Math.round((sectionCorrect.national / sectionTotals.national) * 100)
+          : null;
+        const statePct = sectionTotals.state
+          ? Math.round((sectionCorrect.state / sectionTotals.state) * 100)
+          : null;
+
+        let text = "";
+        if (nationalPct !== null)
+          text += `National: ${sectionCorrect.national}/${sectionTotals.national} (${nationalPct}%)`;
+        if (statePct !== null) {
+          if (text) text += "  |  ";
+          text += `State: ${sectionCorrect.state}/${sectionTotals.state} (${statePct}%)`;
+        }
+
+        const totalAnswered = sectionTotals.national + sectionTotals.state;
+        const totalCorrect = sectionCorrect.national + sectionCorrect.state;
+        const totalQuestions = currentQuestions.length;
+
+        let totalText = `Total: ${totalCorrect}/${totalAnswered} Answered`;
+
+        if (totalAnswered > 0) {
+          const overallPct = Math.round((totalCorrect / totalAnswered) * 100);
+          totalText += ` (${overallPct}%)`;
+        }
+
+        scoreDiv.innerHTML = `${totalText}<br><span>${text}</span>`;
+      }
+
+      // --- Reset Function ---
+      function resetQuiz() {
+        userAnswers = [];
+        scoreDiv.innerHTML = "Select an option to begin scoring.";
+
+        // Create a fresh copy of the master list and shuffle it
+        currentQuestions = [...masterQuestions];
+        shuffleArray(currentQuestions);
+
+        renderQuiz();
+      }
+
+      resetBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        resetQuiz();
+      });
+
+      // --- Initial Load (Fetch Questions) ---
+      async function loadQuestions() {
+        try {
+          // NOTE: This fetch assumes you have a `questions.json` file in the same directory
+          const response = await fetch("./questions.json");
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          masterQuestions = await response.json();
+          resetQuiz(); // Call resetQuiz to shuffle and render initially
+        } catch (error) {
+          console.error("Could not load questions:", error);
+          quizContainer.innerHTML = `<p style="color: red;">Error loading questions. Make sure 'questions.json' is available and correctly formatted.</p>`;
+          scoreDiv.innerHTML = "";
+        }
+      }
+
+      loadQuestions();
+    </script>
+  </body>
+</html>
