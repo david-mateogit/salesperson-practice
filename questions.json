@@ -421,18 +421,6 @@
   },
   {
     "section": "national",
-    "text": "A homeowner owns a property in 'severalty'. This means the property is owned by:",
-    "options": [
-      "Several people with rights of survivorship",
-      "One person or entity sole and alone",
-      "A husband and wife",
-      "A corporation and a partnership"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ownership in 'severalty' (derived from 'severed') means the ownership is cut off from all others; it is ownership by one single person or entity."
-  },
-  {
-    "section": "national",
     "text": "In the capitalization approach to appraisal, if the capitalization rate (cap rate) goes up, and the net operating income remains the same, the value of the property:",
     "options": [
       "Increases",
@@ -442,18 +430,6 @@
     ],
     "correctIndex": 1,
     "explanation": "Value = Income / Rate. If the Rate (denominator) increases, the resulting Value decreases. Higher risk (higher cap rate) implies lower value for the same income."
-  },
-  {
-    "section": "national",
-    "text": "One discount point charged by a lender is equal to:",
-    "options": [
-      "1% of the sales price",
-      "1% of the loan amount",
-      "$1,000",
-      "1/8% of the interest rate"
-    ],
-    "correctIndex": 1,
-    "explanation": "Discount points are prepaid interest used to lower the mortgage rate. One point always equals 1% of the *loan amount*, not the purchase price."
   },
   {
     "section": "national",
@@ -469,18 +445,6 @@
   },
   {
     "section": "national",
-    "text": "The legal remedy that forces a party to complete the terms of a contract (e.g., forcing a seller to sell after they try to back out) is called:",
-    "options": [
-      "Liquidated Damages",
-      "Specific Performance",
-      "Rescission",
-      "Novation"
-    ],
-    "correctIndex": 1,
-    "explanation": "Specific Performance is a court order requiring a party to perform a specific act, such as completing the sale of a property, because money damages are considered insufficient."
-  },
-  {
-    "section": "national",
     "text": "A store owner has operated a grocery store in a neighborhood for 20 years. The town rezones the area as 'residential only'. The store is allowed to remain as a:",
     "options": [
       "Variance",
@@ -493,29 +457,10 @@
   },
   {
     "section": "national",
-    "text": "In a mortgage contract, the borrower is referred to as the:",
-    "options": ["Mortgagee", "Mortgagor", "Lessor", "Grantee"],
-    "correctIndex": 1,
-    "explanation": "The borrower gives the mortgage (pledge) to the lender. Therefore, the borrower is the MortgagOR, and the lender is the MortgageE."
-  },
-  {
-    "section": "national",
     "text": "The method of sealing off disintegrating asbestos is known as:",
     "options": ["Removal", "Encapsulation", "Capping", "Remediation"],
     "correctIndex": 1,
     "explanation": "Encapsulation involves sealing the asbestos so that fibers cannot become airborne. It is often safer than removal, which can release fibers."
-  },
-  {
-    "section": "national",
-    "text": "A history of all recorded instruments affecting the title to a parcel of land is called a(n):",
-    "options": [
-      "Chain of Title",
-      "Abstract of Title",
-      "Title Insurance Policy",
-      "Certificate of Title"
-    ],
-    "correctIndex": 1,
-    "explanation": "The Chain of Title is the list of owners; the Abstract of Title is the condensed history/summary of all documents (liens, deeds, wills) found during the title search."
   },
   {
     "section": "national",
@@ -638,18 +583,6 @@
   },
   {
     "section": "national",
-    "text": "In the capitalization approach to appraisal, if the capitalization rate (cap rate) goes up, and the net operating income remains the same, the value of the property:",
-    "options": [
-      "Increases",
-      "Decreases",
-      "Remains the same",
-      "Fluctuates wildly"
-    ],
-    "correctIndex": 1,
-    "explanation": "Value = Income / Rate. If the Rate (denominator) increases, the resulting Value decreases. Higher risk (higher cap rate) implies lower value for the same income."
-  },
-  {
-    "section": "national",
     "text": "One discount point charged by a lender is equal to:",
     "options": [
       "1% of the sales price",
@@ -659,18 +592,6 @@
     ],
     "correctIndex": 1,
     "explanation": "Discount points are prepaid interest used to lower the mortgage rate. One point always equals 1% of the *loan amount*, not the purchase price."
-  },
-  {
-    "section": "national",
-    "text": "If a listing agreement gives the broker the right to collect a commission regardless of who sells the property (even the owner), it is an:",
-    "options": [
-      "Exclusive Agency Listing",
-      "Open Listing",
-      "Exclusive Right-to-Sell Listing",
-      "Net Listing"
-    ],
-    "correctIndex": 2,
-    "explanation": "An Exclusive Right-to-Sell listing guarantees the broker a commission if the property is sold during the listing term, regardless of whether the broker, the seller, or another agent finds the buyer."
   },
   {
     "section": "national",
@@ -686,29 +607,10 @@
   },
   {
     "section": "national",
-    "text": "A store owner has operated a grocery store in a neighborhood for 20 years. The town rezones the area as 'residential only'. The store is allowed to remain as a:",
-    "options": [
-      "Variance",
-      "Special Exception",
-      "Nonconforming Use",
-      "Encumbrance"
-    ],
-    "correctIndex": 2,
-    "explanation": "Nonconforming use (grandfathering) allows an existing use to continue even after zoning laws change to prohibit it, provided the use is continuous."
-  },
-  {
-    "section": "national",
     "text": "In a mortgage contract, the borrower is referred to as the:",
     "options": ["Mortgagee", "Mortgagor", "Lessor", "Grantee"],
     "correctIndex": 1,
     "explanation": "The borrower gives the mortgage (pledge) to the lender. Therefore, the borrower is the MortgagOR, and the lender is the MortgageE."
-  },
-  {
-    "section": "national",
-    "text": "The method of sealing off disintegrating asbestos is known as:",
-    "options": ["Removal", "Encapsulation", "Capping", "Remediation"],
-    "correctIndex": 1,
-    "explanation": "Encapsulation involves sealing the asbestos so that fibers cannot become airborne. It is often safer than removal, which can release fibers."
   },
   {
     "section": "national",
@@ -721,113 +623,6 @@
     ],
     "correctIndex": 1,
     "explanation": "The Chain of Title is the list of owners; the Abstract of Title is the condensed history/summary of all documents (liens, deeds, wills) found during the title search."
-  },
-  {
-    "section": "national",
-    "text": "If a landlord allows a property to become uninhabitable (e.g., no heat in winter), and the tenant is forced to move out, this is called:",
-    "options": [
-      "Actual Eviction",
-      "Constructive Eviction",
-      "Ejectment",
-      "Tenant at Sufferance"
-    ],
-    "correctIndex": 1,
-    "explanation": "Constructive Eviction occurs when the landlord's failure to maintain the property renders it uninhabitable, allowing the tenant to leave and terminate the lease without penalty."
-  },
-  {
-    "section": "national",
-    "text": "The Americans with Disabilities Act (ADA) requires that:",
-    "options": [
-      "All residential homes must have wheelchair ramps",
-      "Commercial and public accommodations must be accessible",
-      "Landlords cannot charge for service animals",
-      "Employers must hire a specific quota of disabled workers"
-    ],
-    "correctIndex": 1,
-    "explanation": "Title III of the ADA requires public accommodations (commercial facilities like hotels, offices, stores) to be accessible. It does not apply to standard private residential housing (though Fair Housing does)."
-  },
-  {
-    "section": "national",
-    "text": "Which fiduciary duty continues even after the agency relationship has terminated?",
-    "options": ["Obedience", "Disclosure", "Confidentiality", "Loyalty"],
-    "correctIndex": 2,
-    "explanation": "The duty of Confidentiality survives the termination of the agency. An agent cannot reveal the client's confidential information (like lowest acceptable price) even years later."
-  },
-  {
-    "section": "national",
-    "text": "A loan-to-value (LTV) ratio is calculated by:",
-    "options": [
-      "Dividing the loan amount by the sales price or appraised value (whichever is lower)",
-      "Dividing the down payment by the loan amount",
-      "Dividing the sales price by the loan amount",
-      "Adding the closing costs to the loan amount"
-    ],
-    "correctIndex": 0,
-    "explanation": "LTV is the percentage of the property's value that is mortgaged. It is calculated as Loan Amount ÷ Value (using the lower of the purchase price or appraised value)."
-  },
-  {
-    "section": "national",
-    "text": "Under the concept of riparian rights, an owner of land bordering a non-navigable stream owns:",
-    "options": [
-      "To the high water mark",
-      "To the center of the stream",
-      "Only the land up to the water's edge",
-      "The water itself"
-    ],
-    "correctIndex": 1,
-    "explanation": "For non-navigable streams, adjacent landowners own the land under the water to the center of the stream."
-  },
-  {
-    "section": "national",
-    "text": "Blockbusting is also known as:",
-    "options": ["Panic Peddling", "Steering", "Redlining", "Discounting"],
-    "correctIndex": 0,
-    "explanation": "Blockbusting is often referred to as 'Panic Peddling' or 'Panic Selling' because it utilizes fear to induce sales."
-  },
-  {
-    "section": "state",
-    "text": "In Connecticut, real estate brokers are required to retain transaction records for a minimum of:",
-    "options": ["3 years", "5 years", "7 years", "10 years"],
-    "correctIndex": 2,
-    "explanation": "CT regulations require brokers to keep all real estate transaction records (contracts, offers, closing statements) for 7 years."
-  },
-  {
-    "section": "state",
-    "text": "Which of the following activities may an unlicensed personal assistant legally perform in Connecticut?",
-    "options": [
-      "Show a property to a prospective buyer",
-      "Answer questions about the price and terms of a listing",
-      "Place a 'For Sale' sign on a property",
-      "Negotiate a commission split"
-    ],
-    "correctIndex": 2,
-    "explanation": "Unlicensed assistants can perform administrative tasks like placing signs, making keys, or typing contracts. They CANNOT show properties, answer questions about material aspects (price/terms), or negotiate."
-  },
-  {
-    "section": "state",
-    "text": "Connecticut Continuing Education (CE) requirements for license renewal are:",
-    "options": [
-      "12 hours every year",
-      "12 hours every two years",
-      "6 hours every year",
-      "15 hours every two years"
-    ],
-    "correctIndex": 1,
-    "explanation": "Licensees must complete 12 hours of continuing education every two-year cycle (even though salespersons renew licenses annually, the CE cycle is biennial)."
-  },
-  {
-    "section": "state",
-    "text": "Who pays the Municipal Conveyance Tax in Connecticut?",
-    "options": ["The Buyer", "The Seller", "The Broker", "It is split 50/50"],
-    "correctIndex": 1,
-    "explanation": "In Connecticut, the Seller (Grantor) is responsible for paying both the State and Municipal Conveyance taxes upon the transfer of the property."
-  },
-  {
-    "section": "state",
-    "text": "Generally, the Connecticut statute of limitations for a person to bring a lawsuit regarding a breach of written contract is:",
-    "options": ["1 year", "3 years", "6 years", "15 years"],
-    "correctIndex": 2,
-    "explanation": "In CT, the statute of limitations for simple or implied contracts is 3 years, but for written contracts, it is generally 6 years."
   },
   {
     "section": "national",

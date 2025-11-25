@@ -107,6 +107,22 @@
       button:hover {
         background: #1976d2;
       }
+      #topContinueBtn {
+        background: #4caf50; /* Green for continue */
+      }
+      #topContinueBtn:hover {
+        background: #45a049;
+      }
+      #topButtonsContainer {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+      }
+      #topButtonsContainer button {
+        flex: 1;
+        min-width: 200px;
+      }
       #score {
         font-size: 1.1rem;
         font-weight: 700;
@@ -115,6 +131,36 @@
         padding: 0.75rem 1rem;
         border-radius: 8px;
         border: 1px dashed #bdbdbd;
+      }
+
+      /* --- Floating Go to Top Button --- */
+      #goToTopBtn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #2196f3;
+        color: white;
+        font-size: 1.5rem;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        transition: all 0.3s ease;
+        border: none;
+        padding: 0;
+      }
+      #goToTopBtn:hover {
+        background: #1976d2;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+      }
+      #goToTopBtn.show {
+        display: flex;
       }
 
       /* --- Responsive adjustments --- */
@@ -141,6 +187,10 @@
     <div class="container">
       <h2>📚 CT Real Estate Practice Exam</h2>
       <h3><span>Made By:</span> David Mateo</h3>
+      <div id="topButtonsContainer" style="display: none">
+        <button id="topContinueBtn">▶️ Continue</button>
+        <button id="topResetBtn">🔄 Reset Quiz</button>
+      </div>
       <div id="quiz"></div>
       <div class="footer">
         <button id="resetBtn">🔄 Reset & Shuffle Quiz</button>
@@ -148,21 +198,56 @@
       </div>
     </div>
 
+    <!-- Floating Go to Top Button -->
+    <button id="goToTopBtn" title="Go to top">⬆️</button>
+
     <script type="module">
       const quizContainer = document.querySelector("#quiz");
       const scoreDiv = document.querySelector("#score");
       const resetBtn = document.querySelector("#resetBtn");
+      const topButtonsContainer = document.querySelector(
+        "#topButtonsContainer"
+      );
+      const topContinueBtn = document.querySelector("#topContinueBtn");
+      const topResetBtn = document.querySelector("#topResetBtn");
 
       let masterQuestions = []; // Stores the full, un-shuffled list of questions
       let currentQuestions = []; // Stores the shuffled list for the current quiz
       let userAnswers = []; // track { questionIndex, chosenIndex } in the CURRENT shuffled array
 
-      // --- Fisher-Yates (Knuth) Shuffle Algorithm ---
+      const STORAGE_KEY = "ct_real_estate_quiz_progress";
+
+      // --- Fisher-Yates (Knuth) Shuffle Algorithm (ensures no duplicates) ---
       function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [array[i], array[j]] = [array[j], array[i]];
         }
+      }
+
+      // --- Local Storage Functions ---
+      function saveProgress() {
+        const data = {
+          currentQuestions,
+          userAnswers,
+          timestamp: Date.now(),
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      }
+
+      function loadProgress() {
+        try {
+          const saved = localStorage.getItem(STORAGE_KEY);
+          if (!saved) return null;
+          return JSON.parse(saved);
+        } catch (error) {
+          console.error("Error loading progress:", error);
+          return null;
+        }
+      }
+
+      function clearProgress() {
+        localStorage.removeItem(STORAGE_KEY);
       }
 
       // --- Rendering Logic ---
@@ -227,6 +312,10 @@
         explanationBox.style.display = "block";
 
         updateScore();
+        saveProgress(); // Save after each answer
+
+        // Show the top buttons after first answer
+        topButtonsContainer.style.display = "flex";
       }
 
       // --- Score Calculation ---
@@ -286,13 +375,88 @@
         currentQuestions = [...masterQuestions];
         shuffleArray(currentQuestions);
 
+        clearProgress(); // Clear saved progress
+        topButtonsContainer.style.display = "none"; // Hide top buttons
         renderQuiz();
+      }
+
+      // --- Restore Quiz from Saved Progress ---
+      function restoreQuiz(savedData) {
+        currentQuestions = savedData.currentQuestions;
+        userAnswers = savedData.userAnswers;
+
+        renderQuiz();
+
+        // Re-apply the answers to show what was already answered
+        userAnswers.forEach(({ questionIndex, chosenIndex }) => {
+          const questionContainer = quizContainer.querySelector(
+            `[data-q-index="${questionIndex}"]`
+          );
+          if (!questionContainer) return;
+
+          const options = questionContainer.querySelectorAll(".option");
+          const q = currentQuestions[questionIndex];
+          const explanationBox =
+            questionContainer.querySelector(".explanation");
+
+          // Mark as answered
+          questionContainer.classList.add("answered");
+          options.forEach((opt) => opt.classList.add("answered"));
+
+          // Apply visual feedback
+          if (chosenIndex === q.correctIndex) {
+            options[chosenIndex].classList.add("correct");
+          } else {
+            options[chosenIndex].classList.add("incorrect");
+            options[q.correctIndex].classList.add("correct");
+          }
+          explanationBox.style.display = "block";
+        });
+
+        updateScore();
+
+        // Show top buttons if there are answered questions
+        if (userAnswers.length > 0) {
+          topButtonsContainer.style.display = "flex";
+        }
+      }
+
+      // --- Continue to First Unanswered Question ---
+      function continueQuiz() {
+        const answeredIndices = new Set(
+          userAnswers.map((a) => a.questionIndex)
+        );
+        const firstUnanswered = currentQuestions.findIndex(
+          (_, idx) => !answeredIndices.has(idx)
+        );
+
+        if (firstUnanswered !== -1) {
+          const questionContainer = quizContainer.querySelector(
+            `[data-q-index="${firstUnanswered}"]`
+          );
+          if (questionContainer) {
+            questionContainer.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+          }
+        } else {
+          // All questions answered, scroll to top
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
       }
 
       resetBtn.addEventListener("click", () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
         resetQuiz();
       });
+
+      topResetBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        resetQuiz();
+      });
+
+      topContinueBtn.addEventListener("click", continueQuiz);
 
       // --- Initial Load (Fetch Questions) ---
       async function loadQuestions() {
@@ -303,7 +467,15 @@
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           masterQuestions = await response.json();
-          resetQuiz(); // Call resetQuiz to shuffle and render initially
+
+          // Check for saved progress
+          const savedProgress = loadProgress();
+          if (savedProgress && savedProgress.currentQuestions.length > 0) {
+            restoreQuiz(savedProgress);
+          } else {
+            // No saved progress, start fresh
+            resetQuiz();
+          }
         } catch (error) {
           console.error("Could not load questions:", error);
           quizContainer.innerHTML = `<p style="color: red;">Error loading questions. Make sure 'questions.json' is available and correctly formatted.</p>`;
@@ -312,6 +484,23 @@
       }
 
       loadQuestions();
+
+      // --- Go to Top Button Functionality ---
+      const goToTopBtn = document.querySelector("#goToTopBtn");
+
+      // Show/hide button based on scroll position
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          goToTopBtn.classList.add("show");
+        } else {
+          goToTopBtn.classList.remove("show");
+        }
+      });
+
+      // Scroll to top when clicked
+      goToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
     </script>
   </body>
 </html>
